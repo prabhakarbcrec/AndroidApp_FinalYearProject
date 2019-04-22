@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/backgroundcolor"
+android:orientation="vertical"
+
+tools:context="com.example.prabhakarkumarojha.cid.MainActivity">
+
+<LinearLayout
+    android:background="@drawable/y"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/imageButtonphn"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:contentDescription="@string/todo"
+
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="CALL"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/imageButtonmsg"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:contentDescription="@string/todo"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/sms" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="SMS"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+<LinearLayout
+    android:background="@drawable/y"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/imageButtonmsgmail"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="EMAIL"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/y"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/play"
+            android:layout_marginLeft="10dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+           android:background="@drawable/ic_play_24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textColor="#03f"
+            android:text="DETAILS"
+            android:textSize="30dp"
+            />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="45dp"
+        android:background="@drawable/ic_stop_24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@drawable/y"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="9dp"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </ScrollView>
+</LinearLayout>
+
+

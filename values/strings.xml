@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CID</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="makaut">MAKAUT</string>
+    <string name="department">DEPARTMENT</string>
+    <string name="bcrec">BCREC</string>
+    <string name="all_information_is_here_about_bcrec">ALL INFORMATION IS HERE ABOUT BCREC</string>
+    <string name="todo">TODO</string>
+
+    <string name="education">EDUCATION</string>
+    <string name="enterview_exp">ENTERVIEW EXP</string>
+    <string name="of_bcrec_students">OF BCREC STUDENTS</string>
+
+    <string name="result_infomation">RESULT,INFOMATION</string>
+    <string name="about_professors">ABOUT PROFESSORS</string>
+    <string name="c_java_bigdata_android_wed_python">C,JAVA,BIGDATA,ANDROID,WED,PYTHON</string>
+
+
+
+    <array name="chandan">
+
+        <item>  He is the head of department  of CSE.
+                Domain:   Network Security
+                Papers Published:National 20,International 35
+                Books Published : 4
+        </item>
+</array>
+</resources>

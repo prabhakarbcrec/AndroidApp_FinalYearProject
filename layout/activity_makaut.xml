@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prabhakarkumarojha.cid.MakautActivity">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/webviewmakaut"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+    <ProgressBar
+        android:id="@+id/progressBar2makaut"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/textViewmakaut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progressBar2makaut"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/progressBar2makaut"
+        tools:ignore="UnknownId" />
+
+</RelativeLayout>
